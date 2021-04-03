@@ -1,0 +1,93 @@
+@media (min-width: 0px) {
+    body{
+       /* background: red;*/
+        padding: 0;
+    }
+    .pearnt .aboutMe{
+        padding-left: 0
+    }
+     .personal{
+        display: none;
+    }
+    .myInformation{
+        padding-left: 60px;
+    }
+    
+}
+
+
+
+@media (min-width: 576px) { /*________*/
+
+ body{
+        /*background: #000*/
+    }
+     .personal{
+        display: none;
+    }
+    .myInformation{
+        padding-left: 60px;
+    }
+   
+    
+ }
+
+
+@media (min-width: 768px) { /*_______*/
+ 
+    body{
+       /* background: orange;*/
+     
+    }
+    .pearnt .aboutMe{
+        padding-left: 10px
+    }
+    .personal{
+        display: none;
+    }
+    .myInformation{
+        padding-left: 60px;
+    }
+
+}/*_______*/
+
+
+
+
+
+
+@media (min-width: 992px) { /*_______*/
+
+ body{
+       /* background: blue*/
+    }
+    .pearnt .aboutMe{
+        padding-left: 45px
+    }
+     .personal{
+        display: block;
+    }
+    .myInformation{
+        padding-left:0
+    }
+
+}/*_______*/
+
+
+
+
+
+
+@media (min-width: 1200px) {/*_______*/
+ body{
+       /* background: green;*/
+     padding-top: 29px;
+    padding-right: 170px;
+    padding-left: 170px;
+    }
+    .pearnt .aboutMe{
+        padding-left: 40px
+    }
+    
+
+}/*_______*/
